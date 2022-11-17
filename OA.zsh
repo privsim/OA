@@ -69,13 +69,7 @@ fi
 unset color_prompt force_color_prompt
 
 setopt PROMPT_SUBST
-#
-#
-#
-#PROMPT=$'%(1V.%{$fs_bold[grey]%}(%1v)%{$reset_color%}.)%F{%(#.blue.green)}${debian_chroot:+($debian_chroot)}(%B%F{%(#.red.blue)}%n%(#.𝛀𝚨.𝛀𝚨)%m%b%F{%(#.blue.green)})[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.green)}]\n%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
-#RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
-#RPROMPT="[%D{%f/%m/%y} | %D{%L:%M:%S}]"
-#autoload -Uz promptinit && promptinit
+
 
 
 PROMPT=$'%(1V.%{$fs_bold[grey]%}(%1v)%{$reset_color%}.%F{%(#.blue.green)}%F{%(#.red.blue)}%n%(#.𝛀𝚨.𝛀𝚨)%m%b%F{%(#.blue.green)})[%B%F{reset}%(6~.%-1~

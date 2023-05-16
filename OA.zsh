@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 
 export color_prompt=yes
 
